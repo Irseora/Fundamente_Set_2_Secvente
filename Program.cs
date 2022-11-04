@@ -326,7 +326,7 @@ namespace Set2
         }
 
         // 11. Se da o secventa de n numere.
-        //     Se cere sa se caculeze suma inverselor acestor numere."
+        //     Se cere sa se caculeze suma inverselor acestor numere.
         static void SumaInverselor(string indicatie)
         {
             Console.Clear();
@@ -420,17 +420,29 @@ namespace Set2
             Console.Clear();
             Console.WriteLine(indicatie + "\n");
 
-            Console.Write("N = ");
-            int n = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Introduceti o secventa 0 si 1: ");
+            string paranteze = Console.ReadLine();
 
-            Console.WriteLine($"Introduceti o secventa 0/1 de lungime {n}:");
-            int nrDeschise = 0, nrInchise = 0;
-            for (int i = 0; i < n; i++)
+            int nrDeschise = 0, incuibareMax = 0, lungime = paranteze.Length;
+            bool ok = true;
+            for (int i = 0; i < lungime; i += 2)
             {
-                int paranteza = int.Parse(Console.ReadLine());
-
-                
+                if (paranteze[i] == '0')
+                {
+                    nrDeschise++;
+                    if (nrDeschise > incuibareMax) incuibareMax = nrDeschise;
+                }
+                else
+                {
+                    nrDeschise--;
+                    if (nrDeschise < 0) ok = false;
+                } 
             }
+
+            if (ok)
+                Console.WriteLine($"Secventa {paranteze} este corecta si are nivelul maxim de incuibare {incuibareMax}.");
+            else
+                Console.WriteLine($"Secventa {paranteze} nu este corecta.");
         }
     }
 }
