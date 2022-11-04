@@ -17,7 +17,7 @@
     7. Se da o secventa de n numere. Sa se determine cea mai mare si cea mai mica valoare din secventa.
 
     8. Determianti al n-lea numar din sirul lui Fibonacci.
-        Sirul lui Fibonacci se construieste astfel: $f1 = 0, f2 = 1, f_n = f_{n-1} + f_{n-2}$.
+        Sirul lui Fibonacci se construieste astfel: f_1 = 0, f_2 = 1, f_n = f_{n-1} + f_{n-2}.
         Exemplu: 0, 1, 1, 2, 3, 5, 8 ...
 
     9. Sa se determine daca o secventa de n numere este monotona.
@@ -31,18 +31,18 @@
         Considerati fiecare astfel de grup ca fiind un cuvant, zero fiind delimitator de cuvinte.
         De ex. pentru secventa 1, 2, 0, 3, 4, 5, 0, 0, 6, 7, 0, 0 raspunsul este 3.
 
-    13. O *secventa crescatoare rotita* este o secventa de numere care este in ordine crescatoare sau poate fi transformata intr-o secventa in ordine crescatoare prin rotiri succesive.
+    13. O <secventa crescatoare rotita> este o secventa de numere care este in ordine crescatoare sau poate fi transformata intr-o secventa in ordine crescatoare prin rotiri succesive.
         Determinati daca o secventa de n numere este o secventa crescatoare rotita.
         Rotire cu o pozitie spre stanga = toate elementele se muta cu o pozitie spre stanga & primul element devine ultimul.
 
-    14. O *secventa monotona rotita* este o secventa de numere monotona sau poate fi transformata intr-o secventa montona prin rotiri succesive
+    14. O <secventa monotona rotita> este o secventa de numere monotona sau poate fi transformata intr-o secventa montona prin rotiri succesive
         Determinati daca o secventa de n numere este o secventa monotona rotita.
 
-    15. O *secventa bitonica* este o secventa de numere care incepe monoton crescator si continua monoton descrecator.
+    15. O <secventa bitonica> este o secventa de numere care incepe monoton crescator si continua monoton descrecator.
         Se da o secventa de n numere. Sa se determine daca este bitonica.
         De ex. 1,2,2,3,5,4,4,3 este o secventa bitonica.
 
-    16. O *secventa bitonica rotita* este o secventa bitonica sau una ca poate fi transformata intr-o secventa bitonica prin rotiri succesive.
+    16. O <secventa bitonica rotita> este o secventa bitonica sau una ca poate fi transformata intr-o secventa bitonica prin rotiri succesive.
         Se da o secventa de n numere. Se cere sa se determine daca este o secventa bitonica rotita.
         Rotire = primul element devine ultimul
 
