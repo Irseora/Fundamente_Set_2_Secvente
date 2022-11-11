@@ -8,6 +8,8 @@ namespace Set2
 {
     class Program
     {
+        // ---------------------------------------------- FUNCTII AJUTATOARE --------------------------------------------------------------
+
         static int Afis(string[] indicatii)
         {
             Console.Clear();
@@ -23,6 +25,8 @@ namespace Set2
 
             return prob;
         }
+
+        // ---------------------------------------------------- MAIN ---------------------------------------------------------------------
 
         static void Main(string[] args)
         {
@@ -81,6 +85,8 @@ namespace Set2
                 default: break;
             }
         }
+
+        // -------------------------------------------------- REZOLVARI ------------------------------------------------------------------
 
         //  1. Se da o secventa de n numere.
         //     Sa se determine cate din ele sunt pare.
@@ -272,7 +278,7 @@ namespace Set2
             Console.WriteLine($"Al {n}-lea numar din sirul lui Fibonacii: {fN}");
         }
 
-        // TODO: 9. Sa se determine daca o secventa de n numere este monotona.
+        //  9. Sa se determine daca o secventa de n numere este monotona.
         //     Secventa monotona = secventa monoton crescatoare sau monoton descrescatoare.
         static void Monoton(string indicatie)
         {
@@ -283,9 +289,58 @@ namespace Set2
             int n = int.Parse(Console.ReadLine());
 
             Console.WriteLine($"Introduceti un sir de {n} numere:");
-            int prim = int.Parse(Console.ReadLine()), secund = int.Parse(Console.ReadLine());
 
-            
+            // 0 = nu este monotona, 1 = monoton crescatoare, 2 = monoton descrescatoare, 3 = toate elementele egale
+            int monotonie = 0;
+
+            // Cate numere au fost citite pana acum
+            int citit = 0;
+
+            // Citeste primele 2 elemente separat
+            int anterior = int.Parse(Console.ReadLine()), curent = int.Parse(Console.ReadLine());
+            citit = 2;
+
+            // Daca primele 2 valori sunt egale, citeste pana gaseste valori diferite
+            while (citit < n && anterior == curent)
+            {
+                anterior = curent;
+                curent = int.Parse(Console.ReadLine());
+                citit++;
+            }
+
+            // Daca toate valorile au fost egale
+            if (citit == n && anterior == curent)
+                monotonie = 3;
+            else
+            {
+                if (curent > anterior)
+                    monotonie = 1;
+                else if (curent < anterior)
+                    monotonie = 2;
+
+                // Citeste valorile ramase
+                while (citit < n && monotonie != 0)
+                {
+                    anterior = curent;
+                    curent = int.Parse(Console.ReadLine());
+                    citit++;
+
+                    // Se opreste dupa prima contrazicere a tipului de monotonitate aflat anterior
+                    if (monotonie == 1 && curent < anterior)
+                        monotonie = 0;
+                    else if (monotonie == 2 && curent > anterior)
+                        monotonie = 0;
+                }     
+            }
+
+            if (monotonie == 0)
+                Console.WriteLine("Secventa nu este monotona.");
+            else if (monotonie == 1)
+                Console.WriteLine("Secventa este monoton crescatoare.");
+            else if (monotonie == 2)
+                Console.WriteLine("Secventa este monoton descrescatoare.");
+            else
+                Console.WriteLine("Secventa este monotona. Toate elementele sunt egale.");
         }
 
         // 10. Se da o secventa de n numere.
