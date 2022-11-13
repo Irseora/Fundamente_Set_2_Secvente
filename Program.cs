@@ -9,8 +9,6 @@ namespace Set2
 {
     class Program
     {
-        // ---------------------------------------------- FUNCTII AJUTATOARE --------------------------------------------------------------
-
         static int Afis(string[] indicatii)
         {
             Console.Clear();
@@ -26,8 +24,6 @@ namespace Set2
 
             return prob;
         }
-
-        // ---------------------------------------------------- MAIN ---------------------------------------------------------------------
 
         static void Main(string[] args)
         {
