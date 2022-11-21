@@ -12,6 +12,7 @@ namespace Rezolvari
 {
     class Prob_8
     {
+        /// <summary> Determina al n-lea numar din sirul Fibonacci. Date de intrare: n </summary>
         public static void FibonacciN(string indicatie)
         {
             Console.Clear();

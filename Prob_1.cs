@@ -11,6 +11,7 @@ namespace Rezolvari
 {
     class Prob_1
     {
+        /// <summary> Determina cate numere dintr-o secventa de n numere sunt pare. Date de intrare: n, secventa </summary>
         public static void CatePare(string indicatie)
         {
             Console.Clear();

@@ -11,6 +11,7 @@ namespace Rezolvari
 {
     class Prob_2
     {
+        /// <summary> Determina cate numere dintr-o secventa de lungime n sunt negative, zero si pozitive. Date de intrare: n, secventa </summary>
         public static void CateNegZeroPoz(string indicatie)
         {
             Console.Clear();

@@ -11,6 +11,7 @@ namespace Rezolvari
 {
     class Prob_9
     {
+        /// <summary> Determina daca o secventa de n numere este monotona. Date de intrare: n, secventa </summary>
         public static void Monoton(string indicatie)
         {
             Console.Clear();

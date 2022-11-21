@@ -11,6 +11,7 @@ namespace Rezolvari
 {
     class Prob_10
     {
+        /// <summary> . Date de intrare: </summary>
         public static void MaxConsecutiveEgale(string indicatie)
         {
             Console.Clear();

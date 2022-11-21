@@ -10,6 +10,7 @@ namespace Rezolvari
 {
     class Prob_3
     {
+        /// <summary> Calculeaza suma si produsul numerelor de la 1 la n. Date de intrare: n </summary>
         public static void SumaProdUnuLaN(string indicatie)
         {
             Console.Clear();

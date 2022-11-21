@@ -11,6 +11,7 @@ namespace Rezolvari
 {
     class Prob_7
     {
+        /// <summary> Determina cea mai mare si cea mai mica valoare dintr-o secventa de n numere. Date de intrare: n, secventa </summary>
         public static void MaxMin(string indicatie)
         {
             Console.Clear();

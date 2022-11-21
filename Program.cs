@@ -9,6 +9,9 @@ namespace Set2
 {
     class Program
     {
+        /// <summary> Afiseaza indicatiile celor 17 probleme, apoi citeste si returneaza numarul problemei dorite. </summary>
+        /// <param name="indicatii"> Indicatiile problemelor </param>
+        /// <returns> Numarul problemei alese </returns>
         static int Afis(string[] indicatii)
         {
             Console.Clear();
@@ -27,6 +30,7 @@ namespace Set2
 
         static void Main(string[] args)
         {
+            // Indicatiile celui de al doilea set de probleme (17)
             string[] indicatii = {"Setul de probleme 2 (Secvente):",
                                   " 1. Se da o secventa de n numere.\n    Sa se determine cate din ele sunt pare.",
                                   " 2. Se da o secventa de n numere.\n    Sa se determina cate sunt negative, cate sunt zero si cate sunt pozitive.",
@@ -58,6 +62,7 @@ namespace Set2
                                             // De exemplu 0 1 0 0 1 0 1 1 este corecta si are nivelul maxim de incuibare 2, pe cand 0 0 1 1 1 0 este incorecta.
                                  };
 
+            // Apeleaza functia care rezolva problema aleasa
             int prob = Afis(indicatii);
             switch (prob)
             {
