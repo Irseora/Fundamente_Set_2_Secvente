@@ -15,7 +15,7 @@ namespace Rezolvari
         public static void MaxMin(string indicatie)
         {
             Console.Clear();
-            Console.WriteLine(indicatie + "\n");
+            Console.WriteLine($"{indicatie}{Environment.NewLine}");
 
             Console.Write("N = ");
             int n = int.Parse(Console.ReadLine());
@@ -30,7 +30,7 @@ namespace Rezolvari
                 else if (x > max) max = x;
             }
 
-            Console.WriteLine($"Cea mai mare valoare: {max}\nCea mai mica valoare: {min}");
+            Console.WriteLine($"Cea mai mare valoare: {max}{Environment.NewLine}Cea mai mica valoare: {min}");
         }
     }
 }

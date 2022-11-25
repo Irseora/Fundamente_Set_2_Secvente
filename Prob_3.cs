@@ -14,7 +14,7 @@ namespace Rezolvari
         public static void SumaProdUnuLaN(string indicatie)
         {
             Console.Clear();
-            Console.WriteLine(indicatie + "\n");
+            Console.WriteLine($"{indicatie}{Environment.NewLine}");
 
             Console.Write("N = ");
             int n = int.Parse(Console.ReadLine());
@@ -27,7 +27,7 @@ namespace Rezolvari
                 produs *= i;
             }
 
-            Console.WriteLine($"\nSuma: {suma}\nProdusul: {produs}");
+            Console.WriteLine($"{Environment.NewLine}Suma: {suma}{Environment.NewLine}Produsul: {produs}");
         }
     }
 }

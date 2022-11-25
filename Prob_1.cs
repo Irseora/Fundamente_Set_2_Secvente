@@ -15,7 +15,7 @@ namespace Rezolvari
         public static void CatePare(string indicatie)
         {
             Console.Clear();
-            Console.WriteLine(indicatie + "\n");
+            Console.WriteLine($"{indicatie}{Environment.NewLine}");
 
             Console.Write("N = ");
             int n = int.Parse(Console.ReadLine());
@@ -28,7 +28,7 @@ namespace Rezolvari
                 if (x % 2 == 0) nr++;
             }
 
-            Console.WriteLine($"\nIn sirul dat sunt {nr} numere pare.");
+            Console.WriteLine($"{Environment.NewLine}In sirul dat sunt {nr} numere pare.");
         }
     }
 }

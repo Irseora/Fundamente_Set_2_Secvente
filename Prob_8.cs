@@ -16,7 +16,7 @@ namespace Rezolvari
         public static void FibonacciN(string indicatie)
         {
             Console.Clear();
-            Console.WriteLine(indicatie + "\n");
+            Console.WriteLine($"{indicatie}{Environment.NewLine}");
 
             Console.Write("N = ");
             int n = int.Parse(Console.ReadLine());

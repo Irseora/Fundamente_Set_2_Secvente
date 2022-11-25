@@ -16,7 +16,7 @@ namespace Rezolvari
         public static void Paranteze(string indicatie)
         {
             Console.Clear();
-            Console.WriteLine(indicatie + "\n");
+            Console.WriteLine($"{indicatie}{Environment.NewLine}");
 
             Console.WriteLine($"Introduceti o secventa 0 si 1: ");
             string paranteze = Console.ReadLine();
