@@ -12,6 +12,8 @@ namespace Rezolvari
 {
     class Prob_14
     {
+        /// <summary> Determina daca o secventa este o secventa monotona rotita. Date de intrare: n, secventa </summary>
+        /// <param name="indicatie"> Indicatia problemei pe care o rezolva functia </param>
         public static void MonotonRotit(string indicatie)
         {
 

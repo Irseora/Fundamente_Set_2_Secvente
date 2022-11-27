@@ -11,6 +11,8 @@ namespace Rezolvari
 {
     class Prob_11
     {
+        /// <summary> Determina suma inverselor numerelor din secventa. Date de intrare: n, secventa </summary>
+        /// <param name="indicatie"> Indicatia problemei pe care o rezolva functia </param>
         public static void SumaInverselor(string indicatie)
         {
             Console.Clear();

@@ -12,6 +12,7 @@ namespace Rezolvari
     class Prob_5
     {
         /// <summary> Determina cate elemente dintr-o secventa de n numere sunt egale cu pozitia lor. Date de intrare: n, secventa </summary>
+        /// <param name="indicatie"> Indicatia problemei pe care o rezolva functia </param>
         public static void CatePoz(string indicatie)
         {
             Console.Clear();

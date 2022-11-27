@@ -12,6 +12,8 @@ namespace Rezolvari
 {
     class Prob_12
     {
+        /// <summary> Determina cate grupuri de numere consecutive diferite de 0 sunt in secventa. Date de intrare: n, secventa </summary>
+        /// <param name="indicatie"> Indicatia problemei pe care o rezolva functia </param>
         public static void CateGrupuri(string indicatie)
         {
             Console.Clear();

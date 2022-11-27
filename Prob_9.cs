@@ -12,6 +12,7 @@ namespace Rezolvari
     class Prob_9
     {
         /// <summary> Determina daca o secventa de n numere este monotona. Date de intrare: n, secventa </summary>
+        /// <param name="indicatie"> Indicatia problemei pe care o rezolva functia </param>
         public static void Monoton(string indicatie)
         {
             Console.Clear();

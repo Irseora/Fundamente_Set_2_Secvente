@@ -13,6 +13,8 @@ namespace Rezolvari
 {
     class Prob_16
     {
+        /// <summary> Determina daca o secventa este o secventa bitonica rotita. Date de intrare: n, secventa </summary>
+        /// <param name="indicatie"> Indicatia problemei pe care o rezolva functia </param>
         public static void BitonicRotit(string indicatie)
         {
 

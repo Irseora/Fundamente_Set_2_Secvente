@@ -38,14 +38,14 @@ namespace Set2
                                   $" 4. Se da o secventa de n numere.{Environment.NewLine}    Determinati pe ce pozitie se afla in secventa un numara a.",
                                             // Se considera ca primul element din secventa este pe pozitia 0.
                                             // Daca numarul nu se afla in secventa raspunsul va fi -1.
-                                  " 5. Cate elemente dintr-o secventa de n numere sunt egale cu pozitia pe care apar in secventa.",
+                                   " 5. Cate elemente dintr-o secventa de n numere sunt egale cu pozitia pe care apar in secventa.",
                                             // Se considera ca primul element din secventa este pe pozitia 0.
                                   $" 6. Se da o secventa de n numere.{Environment.NewLine}    Sa se determine daca numerele din secventa sunt in ordine crescatoare.",
                                   $" 7. Se da o secventa de n numere.{Environment.NewLine}    Sa se determine cea mai mare si cea mai mica valoare din secventa.",
-                                  " 8. Determianti al n-lea numar din sirul lui Fibonacci.",
+                                   " 8. Determianti al n-lea numar din sirul lui Fibonacci.",
                                             // Sirul lui Fibonacci se construieste astfel: f1 = 0, f2 = 1, f_n = f_(n-1) + f(n-2).
                                             // Exemplu: 0, 1, 1, 2, 3, 5, 8 ...
-                                  " 9. Sa se determine daca o secventa de n numere este monotona.",
+                                   " 9. Sa se determine daca o secventa de n numere este monotona.",
                                             // Secventa monotona = secventa monoton crescatoare sau monoton descrescatoare.
                                   $"10. Se da o secventa de n numere.{Environment.NewLine}    Care este numarul maxim de numere consecutive egale din secventa.",
                                   $"11. Se da o secventa de n numere.{Environment.NewLine}    Se cere sa se caculeze suma inverselor acestor numere.",

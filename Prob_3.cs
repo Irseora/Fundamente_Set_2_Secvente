@@ -11,6 +11,7 @@ namespace Rezolvari
     class Prob_3
     {
         /// <summary> Calculeaza suma si produsul numerelor de la 1 la n. Date de intrare: n </summary>
+        /// <param name="indicatie"> Indicatia problemei pe care o rezolva functia </param>
         public static void SumaProdUnuLaN(string indicatie)
         {
             Console.Clear();

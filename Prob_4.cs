@@ -14,6 +14,7 @@ namespace Rezolvari
     class Prob_4
     {
         /// <summary> Determina pe ce pozitie se afla numarul a intr-o secventa de n numere. Date de intrare: n, secventa, a </summary>
+        /// <param name="indicatie"> Indicatia problemei pe care o rezolva functia </param>
         public static void Find(string indicatie)
         {
             Console.Clear();

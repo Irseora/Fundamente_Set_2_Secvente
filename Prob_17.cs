@@ -13,6 +13,8 @@ namespace Rezolvari
 {
     class Prob_17
     {
+        /// <summary> Determina daca o secventa de paranteze (reprezentate prin 0 - deschisa si 1 - inchisa) este corecta. Date de intrare: n, secventa </summary>
+        /// <param name="indicatie"> Indicatia problemei pe care o rezolva functia </param>
         public static void Paranteze(string indicatie)
         {
             Console.Clear();

@@ -12,6 +12,7 @@ namespace Rezolvari
     class Prob_6
     {
         /// <summary> Determina daca numerele dintr-o secventa de n numere sunt in ordine crescatoare. Date de intrare: n, secventa </summary>
+        /// <param name="indicatie"> Indicatia problemei pe care o rezolva functia </param>
         public static void OrdineCrescatoare(string indicatie)
         {
             Console.Clear();

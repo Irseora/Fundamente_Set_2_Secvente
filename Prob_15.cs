@@ -12,6 +12,8 @@ namespace Rezolvari
 {
     class Prob_15
     {
+        /// <summary> Determina daca o secventa este o secventa bitonica </summary>
+        /// <param name="indicatie"> Indicatia problemei pe care o rezolva functia </param>
         public static void Bitonic(string indicatie)
         {
 

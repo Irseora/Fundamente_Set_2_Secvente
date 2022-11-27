@@ -11,7 +11,8 @@ namespace Rezolvari
 {
     class Prob_10
     {
-        /// <summary> . Date de intrare: </summary>
+        /// <summary> Determina numarul maxim de numere consecutive egale din secventa. Date de intrare: n, secventa </summary>
+        /// <param name="indicatie"> Indicatia problemei pe care o rezolva functia </param>
         public static void MaxConsecutiveEgale(string indicatie)
         {
             Console.Clear();
