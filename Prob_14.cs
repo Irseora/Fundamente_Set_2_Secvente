@@ -16,7 +16,13 @@ namespace Rezolvari
         /// <param name="indicatie"> Indicatia problemei pe care o rezolva functia </param>
         public static void MonotonRotit(string indicatie)
         {
+            Console.Clear();
+            Console.WriteLine($"{indicatie}{Environment.NewLine}");
 
+            Console.Write("N = ");
+            int n = int.Parse(Console.ReadLine());
+
+            Console.WriteLine($"Introduceti un sir de {n} numere:");
         }
     }
 }
