@@ -17,6 +17,7 @@ namespace Rezolvari
         {
             Console.Clear();
             Console.WriteLine($"{indicatie}{Environment.NewLine}");
+            Console.WriteLine($"----------------------------------------");
 
             Console.Write("N = ");
             int n = int.Parse(Console.ReadLine());
@@ -66,6 +67,7 @@ namespace Rezolvari
                 }     
             }
 
+            Console.WriteLine($"----------------------------------------");
             if (monotonie == 0)
                 Console.WriteLine("Secventa nu este monotona.");
             else if (monotonie == 1)

@@ -18,6 +18,7 @@ namespace Rezolvari
         {
             Console.Clear();
             Console.WriteLine($"{indicatie}{Environment.NewLine}");
+            Console.WriteLine($"----------------------------------------");
 
             Console.Write("N = ");
             int n = int.Parse(Console.ReadLine());
@@ -39,6 +40,7 @@ namespace Rezolvari
                 nAnterior = nCurent;
             }
 
+            Console.WriteLine($"----------------------------------------");
             Console.WriteLine($"Grupuri de numere consecutive diferite de 0: {nrGrupuri}");
         }
     }

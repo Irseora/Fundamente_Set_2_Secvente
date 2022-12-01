@@ -17,6 +17,7 @@ namespace Rezolvari
         {
             Console.Clear();
             Console.WriteLine($"{indicatie}{Environment.NewLine}");
+            Console.WriteLine($"----------------------------------------");
 
             Console.Write("N = ");
             int n = int.Parse(Console.ReadLine());
@@ -45,6 +46,7 @@ namespace Rezolvari
             if (curentConsecutiveEgale > maxConsecutiveEgale)
                 maxConsecutiveEgale = curentConsecutiveEgale;
 
+            Console.WriteLine($"----------------------------------------");
             Console.WriteLine($"Numarul maxim de numere consecutive egale: {maxConsecutiveEgale}");
         }
     }

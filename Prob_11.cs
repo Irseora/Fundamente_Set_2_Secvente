@@ -17,6 +17,7 @@ namespace Rezolvari
         {
             Console.Clear();
             Console.WriteLine($"{indicatie}{Environment.NewLine}");
+            Console.WriteLine($"----------------------------------------");
 
             Console.Write("N = ");
             int n = int.Parse(Console.ReadLine());
@@ -29,6 +30,7 @@ namespace Rezolvari
                 suma += (1.0 / x);
             }
 
+            Console.WriteLine($"----------------------------------------");
             Console.WriteLine($"Suma inverselor numerelor din sir: {suma}");
         }
     }

@@ -17,6 +17,7 @@ namespace Rezolvari
         {
             Console.Clear();
             Console.WriteLine($"{indicatie}{Environment.NewLine}");
+            Console.WriteLine($"----------------------------------------");
 
             Console.Write("N = ");
             int n = int.Parse(Console.ReadLine());
@@ -31,6 +32,7 @@ namespace Rezolvari
                 else if (x > max) max = x;
             }
 
+            Console.WriteLine($"----------------------------------------");
             Console.WriteLine($"Cea mai mare valoare: {max}{Environment.NewLine}Cea mai mica valoare: {min}");
         }
     }

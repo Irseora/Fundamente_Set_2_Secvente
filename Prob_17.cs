@@ -19,6 +19,7 @@ namespace Rezolvari
         {
             Console.Clear();
             Console.WriteLine($"{indicatie}{Environment.NewLine}");
+            Console.WriteLine($"----------------------------------------");
 
             Console.WriteLine($"Introduceti o secventa 0 si 1: ");
             string paranteze = Console.ReadLine();
@@ -39,6 +40,7 @@ namespace Rezolvari
                 } 
             }
 
+            Console.WriteLine($"----------------------------------------");
             if (ok)
                 Console.WriteLine($"Secventa {paranteze} este corecta si are nivelul maxim de incuibare {incuibareMax}.");
             else

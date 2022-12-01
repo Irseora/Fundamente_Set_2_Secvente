@@ -17,6 +17,7 @@ namespace Rezolvari
         {
             Console.Clear();
             Console.WriteLine($"{indicatie}{Environment.NewLine}");
+            Console.WriteLine($"----------------------------------------");
 
             Console.Write("N = ");
             int n = int.Parse(Console.ReadLine());
@@ -29,6 +30,7 @@ namespace Rezolvari
                 if (x == i) nr++;
             }
 
+            Console.WriteLine($"----------------------------------------");
             Console.WriteLine($"In secventa sunt {nr} numere care sunt egale cu pozitia pe care apar.");
         }
     }

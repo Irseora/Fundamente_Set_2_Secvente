@@ -17,6 +17,7 @@ namespace Rezolvari
         {
             Console.Clear();
             Console.WriteLine($"{indicatie}{Environment.NewLine}");
+            Console.WriteLine($"----------------------------------------");
 
             Console.Write("N = ");
             int n = int.Parse(Console.ReadLine());
@@ -29,6 +30,7 @@ namespace Rezolvari
                 if (x % 2 == 0) nr++;
             }
 
+            Console.WriteLine("----------------------------------------");
             Console.WriteLine($"{Environment.NewLine}In sirul dat sunt {nr} numere pare.");
         }
     }

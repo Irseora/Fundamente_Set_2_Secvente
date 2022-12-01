@@ -35,7 +35,7 @@ namespace Set2
                                   $" 1. Se da o secventa de n numere.{Environment.NewLine}    Sa se determine cate din ele sunt pare.",
                                   $" 2. Se da o secventa de n numere.{Environment.NewLine}    Sa se determina cate sunt negative, cate sunt zero si cate sunt pozitive.",
                                   $" 3. Calculati suma si produsul numerelor de la 1 la n.",
-                                  $" 4. Se da o secventa de n numere.{Environment.NewLine}    Determinati pe ce pozitie se afla in secventa un numara a.",
+                                  $" 4. Se da o secventa de n numere.{Environment.NewLine}    Determinati pe ce pozitie se afla in secventa un numar a.",
                                             // Se considera ca primul element din secventa este pe pozitia 0.
                                             // Daca numarul nu se afla in secventa raspunsul va fi -1.
                                    " 5. Cate elemente dintr-o secventa de n numere sunt egale cu pozitia pe care apar in secventa.",
@@ -94,7 +94,7 @@ namespace Set2
                 default: break;
             }
 
-            Console.Write("Apasati orice tasta pentru a inchide programul...");
+            Console.Write($"{Environment.NewLine}Apasati orice tasta pentru a inchide programul...");
             Console.ReadKey();
         }
     }

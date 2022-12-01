@@ -17,6 +17,7 @@ namespace Rezolvari
         {
             Console.Clear();
             Console.WriteLine($"{indicatie}{Environment.NewLine}");
+            Console.WriteLine($"----------------------------------------");
 
             Console.Write("N = ");
             int n = int.Parse(Console.ReadLine());
@@ -32,6 +33,7 @@ namespace Rezolvari
                 anterior = curent;
             }
 
+            Console.WriteLine($"----------------------------------------");
             if (crescator) Console.WriteLine("Da, secventa este in ordine crescatoare.");
             else Console.WriteLine("Nu, secventa nu este in ordine crescatoare.");
         }

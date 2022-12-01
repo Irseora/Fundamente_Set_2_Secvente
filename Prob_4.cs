@@ -19,6 +19,7 @@ namespace Rezolvari
         {
             Console.Clear();
             Console.WriteLine($"{indicatie}{Environment.NewLine}");
+            Console.WriteLine($"----------------------------------------");
 
             Console.Write("N = ");
             int n = int.Parse(Console.ReadLine());
@@ -34,6 +35,7 @@ namespace Rezolvari
                 if (x == a) poz = i;
             }
 
+            Console.WriteLine($"----------------------------------------");
             Console.WriteLine($"Pozitia numarului {a} in sir: {poz}");
         }
     }

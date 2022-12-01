@@ -18,6 +18,7 @@ namespace Rezolvari
         {
             Console.Clear();
             Console.WriteLine($"{indicatie}{Environment.NewLine}");
+            Console.WriteLine($"----------------------------------------");
 
             Console.Write("N = ");
             int n = int.Parse(Console.ReadLine());
@@ -38,6 +39,7 @@ namespace Rezolvari
                 fN = fCurent;
             }
 
+            Console.WriteLine($"----------------------------------------");
             Console.WriteLine($"Al {n}-lea numar din sirul lui Fibonacii: {fN}");
         }
     }
