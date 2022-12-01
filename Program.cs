@@ -93,6 +93,9 @@ namespace Set2
                 
                 default: break;
             }
+
+            Console.Write("Apasati orice tasta pentru a inchide programul...");
+            Console.ReadKey();
         }
     }
 }
